@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": "standard",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "no-multiple-empty-lines": "off",
+        "no-unused-vars": "off",
+        "eol-last": "off",
+        "padded-blocks": "off",
+        "space-before-function-paren": "off",
+        "no-trailing-spaces": "off",
+        "no-extra-semi":"off",
+        "no-multi-spaces":"off",
+        "no-func-assign":"off",
+        "quotes":"off",
+        "comma-dangle":"off",
+        "handle-callback-err":"warn"
+    }
+}
